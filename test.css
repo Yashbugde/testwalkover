@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+}
+h2 {
+	text-align: center;
+}
+.grid {
+	background-color: cyan;
+      width: 200px;
+      height: 200px;
+      margin-left: 50px;
+}
+.box {
+	width: 10px;
+height: 200px;
+
+
+border: 10px solid darkorange;
+box-sizing: border-box;
+margin-left:45%;
+}
+
+.cont {
+	 top:80px;
+    position: relative;
+    border: 10px solid darkorange;
+    padding-right:80px;
+}
+
+.inbox {
+	 bottom: 10px;
+      float:right;
+      position: relative;
+      border: 10px solid darkorange;
+      padding-left: 90px;
+}
+.long{
+	width: 33.33%;
+	height: 800px;
+	border: 1px solid red;
+	padding: 1em;
+}
+
+.col {
+	width: 100%;
+	height: 100%;
+	background: crimson;
+}
+
+@media screen and (max-width: 768px){
+	.grid{
+		width: 100%;
+	}
+	.box{
+		width: 100%;
+	}
+}
+.test-link{
+	position:sticky;
+	top: 0;
+}
+
+
